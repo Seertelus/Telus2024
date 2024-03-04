@@ -5,9 +5,15 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/App/Scenes/MainScene.unity
     guid: 9bfeed540bd5f25428507bc9c6788fdc
+  - enabled: 1
+    path: Assets/AzureSpatialAnchors.Examples/Scenes/AzureSpatialAnchorsDemoLauncher.unity
+    guid: 4dcd43f53c599f94a80fb2408d9a15ff
+  - enabled: 1
+    path: Assets/AzureSpatialAnchors.Examples/Scenes/AzureSpatialAnchorsLocalSharedDemo.unity
+    guid: f540d2472b41fdb4bb6a7f47521b0bdd
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: ea7005cb2fc7a459e8871db698e97286, type: 2}
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 982c9ea3df5ac4441b2240fef4667f91, type: 2}

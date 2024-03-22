@@ -14,11 +14,12 @@ public class DisableButtons : MonoBehaviour
     }
 
     // Update is called once per frame
-    public void DisableServerClientButtons(){
+    public void DisableServerClientButtons(bool isServer=false){
         Debug.Log("aaaaa");
         clientButton.SetActive(false); 
         serverButton.SetActive(false);
-        digitalTwinButton.SetActive(true);
+        // if(!isServer)
+            digitalTwinButton.SetActive(true);
 
         
     }
@@ -26,5 +27,6 @@ public class DisableButtons : MonoBehaviour
     public void DisableDigitalTwinButton(){
          Debug.Log("disable digtia");
         digitalTwinButton.SetActive(false); 
+        Debug.Log("AFTER DISABLE DIGITAL TWIN");
     }
 }
